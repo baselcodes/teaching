@@ -39,13 +39,7 @@ function draw() {
         fill(255);
         ellipse(position.x, position.y, 10);
         fill(0);
-        text(city, position.x, position.y)
-        // Object.keys(data).forEach(ip => {
-        //     // console.log(ip);
-        //     const element = data[ip];
-
-        //     // draw_data(ip, data[ip])
-        // });
+        text(city, position.x, position.y);
 
 
         /**
