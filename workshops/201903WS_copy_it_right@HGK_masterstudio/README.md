@@ -34,30 +34,30 @@ There are no coding skill required. Also it’s optional to use creative coding 
 
 Wednesday, 27.3.
 
-| 10:00 – 12:00 | Introduction: The politics of data and peer-to-peer based alternatives |
-| ------------- | :----------------------------------------------------------- |
+| 10:00 – 12:00 | Introduction, course presentation, the politics of data, peer-to-peer based alternatives, software installation  |
+| :------------ | :----------------------------------------------------------- |
 | 12:00 – 13:00 | Lunch                                                        |
-| 13:00 – 15:45 | First Steps: How to access your data, learn about the Beaker Browser and p2p websites, get a brief glimpse into creative coding as possible tool<br/>15 min break after |
+| 13:00 – 15:45 | Access & download your data, get a brief glimpse into creative coding as possible tool<br/>15 min break after |
 | 16:00 – 16:30 | Discussion: How can you embed those concept into your own practice? |
 
 Thursday, 28.3.
 
 | 09:00 – 12:00 | Creative Coding: How to fetch and parse your data, introduction to Ajax and Json |
-| ------------- | ------------------------------------------------------------ |
+| :------------ | :----------------------------------------------------------- |
 | 12:00 – 13:00 | Lunch                                                        |
 | 13:00 – 15:30 | Individual work and mentoring                                |
 | 16:00 – 16:30 | Discussion: What can I copy from my classmates? How do the concepts of the common and open source influence my practice? |
 | 16:30 – 18:00 | Individual work                                              |
-| 18:00 – 19:00 | Lecture: Yann & Max                                          |
+| 18:00 – 19:00 | Lecture: Yann & Max                                          
 
 Friday, 29.3.
 
-| 09:00 – 11:00 | beaker browser, dat input                               |
-| ------------- | ------------------------------------------------------- |
+| 09:00 – 11:00 | P2P: beaker browser, dat input                                                         |
+| :------------ | :----------------------------------------------------------- |
 | 11:00 – 12:00 | mentoring first round                                   |
-| 12:00 – 13:00 | lunch                                                   |
+| 12:00 – 13:00 | lunch
 | 13:00 – 15:00 | Realise own p2p website, mentoring                      |
-| 15:00 – 16:30 | End: Presentation in the group, discussion and feedback |
+| 15:00 – 16:30 | End: Presentation in the group, discussion and feedback
 
 ### Aim
 
@@ -70,9 +70,9 @@ The students learn about the political and societal implications of personal dat
 
 -------------------------
 
-Hannes Grassegger, Das Kapital bin Ich – Schluss mit der digitalen Leibeigenschaft, Berlin: Kein & Aber, 2014
+Hannes Grassegger, Das Kapital bin Ich – Schluss mit der digitalen Leibeigenschaft, Berlin: Kein & Aber, 2014 <br/>
 Michal Kosinski, David Stillwell, Thore Graepel, «Digital records of behavior expose personal traits», PNAS 110 (15), 9. April , 2013, 5802–5805
-https://doi.org/10.1073/pnas.1218772110
+https://doi.org/10.1073/pnas.1218772110<br/>
 «Cambridge Analytica Files», The Guardian, https://www.theguardian.com/news/series/cambridge-analytica-files
 
 
@@ -91,11 +91,17 @@ Fritter: https://github.com/beakerbrowser/fritter
 ---------------------------
 
 Access to your Facebook data: https://www.facebook.com/help/delete_account/ 
+
 P5JS creative coding library: https://p5js.org/
+
 Dat protocol: https://datproject.org/
+
 Beaker Browser: https://beakerbrowser.com/
+
 Dat and Beaker (video talk): https://www.youtube.com/watch?v=rJ_WvfF3FN8&feature=youtu.be&t=799
+
 BitTorrent technology: BitTorrent
+
 Github Pages: https://pages.github.com/
 
 
@@ -107,7 +113,11 @@ Github Pages: https://pages.github.com/
 Rafaël Rozendaal: https://www.newrafael.com/websites/ 
 Ryoji Ikeda: http://www.ryojiikeda.com/
 
-##### Visual Studio Code:
+
+**Visual Studio Code**
+
+-----------------------------------
+
 
 1. [Install Visual Studio Code](https://code.visualstudio.com/)
 2. Go to Plugins and search for Live Server by Ritwick Dey -> Install
