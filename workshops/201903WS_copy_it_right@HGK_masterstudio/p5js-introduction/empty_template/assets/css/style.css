@@ -1,8 +1,46 @@
 body {
-  margin:0;
-  padding:0;
+  /* uncomment this to be able to add content below the p5 sketch */
   overflow: hidden;
 }
-canvas {
-  margin:auto;
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Import a Google Font */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Set all typography */
+body, h1, h2, h3, h4, h5, h6, p, li {
+	font-family: 'Roboto', monospace;
+  font-weight: 400;
+  text-transform: none;
+  font-size: 5rem;
+  letter-spacing: 0;
+	line-height: 1;
+  color: violet;
+  padding: 0px; 
+  margin: 0px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  word-break: break-word;
+}
+
+/* P5JS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* some stuff to make your live easier */
+#p5-sketch-holder {
+	position: absolute;
+	z-index: -10;
+	top: 0px;
+	left: 0px;
+	margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#p5-sketch-holder canvas {
+  width: 100% !important;
+  height: auto !important;
+  margin: 0;
+  padding: 0;
 }
