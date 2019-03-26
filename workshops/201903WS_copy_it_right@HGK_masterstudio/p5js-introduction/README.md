@@ -96,50 +96,57 @@ var size = 100; // declare a variable and assign a value
 ```
 Now you can use this variable (and it's value) in the code: `rect(0, 0, size, size);` Awesome! 🎉
 
-Variables have a scope. This means, that where you declare the variable also defines where in the code you can use them.
-
-```
-var size = 100; // at the top of the file makes it useable everywhere (global)
-
-function setup() {
-  var secondSize = 200; // variable INSIDE a function
-  ellipse(0, 0, secondSize, secondSize); // useable ONLY INSIDE the function
-}
-
-function draw() {
-  rect(0, 0, size, size); // you can use the global variable here
-  ellipse(0, 0, secondSize, secondSize); // not useable OUTSIDE the function
-}
-
-```
-
 There are also built in variable like `mouseX`, `mouseY` as well as canvas `width` and `height`. 
 
-### 6. Datatypes
+### 6.1. Datatypes
 
 There are a few datatype to know about. 🚨 **Usually we use all of them in combinations with variables!**
 
 ```
-var a = 100 // mostly numbers
-var b = "I am a setence" // string data type: words
-var c = color('#0f0'); // the way to use other colors
-var d = [10, 20, 30, 40]; // array data type: a list of things.
-
-// to look into the list (array)
-d[0] // gives you 10
-d[1] // gives you 20
+var a = 100 // round number
+var b = 1.23456 // floating number
+var c = "I am a setence" // string
+var d = color('#0f0'); // color
 
 ```
 
-![](img/array.png)
+### 6.2. Array
+You can think of the array as a bucket full of things. They are very usefull, practically every data out in the web (e.g. your facebook likes) is safed as array data type. **Attention: the array index always starts at 0**
 
-Yeah, the array is a weird thing! 🔮 Why does it start at 0? Nobody knows, just remember it. Arrays are super usefull! Also practically every data out in the web (e.g. your facebook likes) is safed as array data type.
+```
+var myArray = [10, 20, 30, 40]; // array data type: a list of things.
+
+// to look into the list (array)
+myArray[0] // gives you 10
+myArray[1] // gives you 20
+myArray[2] // gives you 30
+myArray[3] // gives you 40
+
+myArray[4] // gives you an error!
+
+```
 
 ### 7. Console
 
 Every browser has a console. You can output data in the console to see problems in the code by writting `console.log(myVariable)`. If you log an array it will show you the full list. The console is **super helpfull**, never underestimate the power of the console 💪.
 
-### 8. For loop
+### 8. Conditionals: if/else
+Sometimes you only want to execute code if a certain condition is true. That's where you can work with if/else. This is a key concept of programming.
+
+```
+var number = 100;
+
+if(number == 100) {
+  fill(0);
+} else {
+  fill(255);
+}
+
+rect(0, 0, 100, 100);
+``` 
+This result in a black rectangle because `number` is equal to `100`. Have you seen the `==`? That's an important detail! If you would use only one `=` you would assign a new value to `number` instead of comparing it. 
+
+### 9. For loop
 
 If you want to handle many similar things at once, the "for loop" is the weapon of choice. `var i` is a counter which usually starts at `0`. As long as `i` is smaller than `100` the code inside the `{}` gets executed. `i = i + 1` indicates how big the counting steps are.
 
@@ -150,7 +157,7 @@ for (var i = 0; i < 100; i = i + 1) {
 ```
 This code draws 100 rectangles on the same position. Cool, right? Keep reading!
 
-### 9. Random
+### 10. Random
 
 Usually you need a bit of random to make you code spicy 🔥 at some point. This outputs you a random number between 0 and 100: `random(0, 100);`. Trough this the code from above makes much more sense:
 
@@ -163,7 +170,7 @@ for (var i = 0; i < 100; i = i + 1) {
 ```
 
 
-## Outlook
+## Ressources
 We can encourage you to check out the following resources:
 
 [Daniel Shiffman - creative coding guru](https://shiffman.net/)
