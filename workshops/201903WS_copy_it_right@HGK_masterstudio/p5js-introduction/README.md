@@ -1,8 +1,8 @@
-# P5.js Intorduction
+# P5.js Introduction ✌️
 
 ## Folder Structure
 
-We provide you with a starting templates to download (on the top of the page). It will have the following folder structure:
+Starter template *empty_template* folder structure:
 
 ```
 empty_template //folder to open in editor, can be renamed
@@ -11,10 +11,8 @@ empty_template //folder to open in editor, can be renamed
 │
 └─── assets //the files required by the website
      │  
-     │
      └─── css
      │   └─── style.css  //stylesheet for this website
-     │
      └─── p5js //p5js library
 
 ```
@@ -30,7 +28,8 @@ This one will execute once at the beginning. You create your canvas here and nee
 
 ```
 function setup() {
-  createCanvas(720, 400);
+  var cnv = createCanvas(720, 400); // how big your sketch should be
+  cnv.parent('p5-sketch-holder'); // where to place your sketch in the index.html document
 }
 ```
 
@@ -38,7 +37,7 @@ This one executes 60 times a second (loop). This loop makes it possible, that yo
 
 ```
 function draw() {
-  rect(10, 20, 50, 50);
+  background(0, 0, 255); // blue background
 }
 ```
 ### 2. Coordinate system and units of measure:
