@@ -52,12 +52,10 @@ Thursday, 28.3.
 
 Friday, 29.3.
 
-| 09:00 – 11:00 | P2P: beaker browser, dat input                                                         |
-| :------------ | :----------------------------------------------------------- |
-| 11:00 – 12:00 | mentoring first round                                   |
-| 12:00 – 13:00 | lunch
-| 13:00 – 15:00 | Realise own p2p website, mentoring                      |
-| 15:00 – 16:30 | End: Presentation in the group, discussion and feedback
+| 09:00 – 11:00 | beaker browser, dat input                               |
+| ------------- | ------------------------------------------------------- |
+| 12:00 – 13:00 | lunch                                                   |
+| 13:00 – 15:00 | End: Presentation in the group, discussion and feedback |
 
 ### Aim
 
