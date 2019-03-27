@@ -173,7 +173,7 @@ for (var i = 0; i < 100; i = i + 1) {
 ## Ressources
 We can encourage you to check out the following resources:
 
-[Introducton Video Tutorial](https://www.youtube.com/watch?v=8j0UDiN7my4&t=10s)
+[Introduction Video Tutorial](https://www.youtube.com/watch?v=8j0UDiN7my4&t=10s)
 
 [Daniel Shiffman - creative coding guru](https://shiffman.net/)
 
