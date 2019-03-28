@@ -17,23 +17,22 @@ function setup() {
 }
 
 function draw() {
-  if (ready == true) {
+  if (ready == true) {// when the data is ready
     // here we draw our likes!
-    // console.log(likes.length);
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < likes.length; i++) {// go through all the element of the array
       // console.log(likes[i]);
-      let like = likes[i];
-      console.log(like.name);
-      let date = get_date(like.timestamp);
+      let like = likes[i];// get the single element of the array
+      console.log(like.name);// log the name of the page
+      let date = get_date(like.timestamp);// transform timestamp to human readabble date
       console.log(date.getDay());
-      let loop = date.getDay() + 1;
-      let h = height / 10;
-      let spacing = 50;
-      for (let j = 0; j < loop; j++) {
-        ellipse(100 + j * 20, i * h, h - spacing);
+      let loop = date.getDay() + 1;// get the days as number [0, 6]
+      let h = height / likes.length;// define height of single element
+      let spacing = 1;// define spacing
+      for (let j = 0; j < loop; j++) {// loop the days
+        ellipse(100 + j * 20, i * h, h - spacing);//draw as many ellipses
       }
     }
-    noLoop();
+    noLoop();// stop the sketch!
   }
 }
 
