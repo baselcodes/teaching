@@ -13,6 +13,7 @@ The goal was to pick one piece of data and visualize it. The students where free
 * It would be nice to send out all of these messages as physical letters.
 * Ip adresses from afrika get ignored by the service [ipapi](https://ipapi.co/). The service puts his focus on the western world.
 * Written language totally differs from the spoken one. How do you pronounce 😅 and 😶?
+* The school network doesn't like P2P networks.
 * Psychological question can be camouflaged behind cute cat pictures.
 * The world of coding and digital technology is not a world out of reach. We should not be afraid of getting in touch with it. We should not underestimate our capacities to understand it.
 
