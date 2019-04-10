@@ -1,4 +1,4 @@
-#This contains all the stuff related to teaching
+# This contains all the stuff related to teaching
 
 ## guideline
 
