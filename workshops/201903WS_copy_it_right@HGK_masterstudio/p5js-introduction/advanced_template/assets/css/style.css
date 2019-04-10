@@ -1,16 +1,12 @@
-body {
-  /* uncomment this to be able to add content below the p5 sketch */
-  overflow: hidden;
-}
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Import a Google Font */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 /* Set all typography */
-body, h1, h2, h3, h4, h5, h6, p, li {
-	font-family: 'Roboto', monospace;
+body, h1, h2, h3, h4, h5, h6, p, li, a {
+	font-family: 'Roboto Mono', monospace;
   font-weight: 400;
   text-transform: none;
   font-size: 5rem;
@@ -24,6 +20,8 @@ body, h1, h2, h3, h4, h5, h6, p, li {
   -moz-osx-font-smoothing: grayscale;
   word-break: break-word;
 }
+
+
 
 /* P5JS
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
