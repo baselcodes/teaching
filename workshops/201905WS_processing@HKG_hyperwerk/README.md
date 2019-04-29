@@ -260,19 +260,53 @@ Take a look under `File -> examples` and here [https://processing.org/examples/]
 
 ## Day 2 – Individual Work && Mentoring
 
-### Libraries
+### Libraries 
+We encourage you to work with libraries to expand the possibilities of processing!
 
-Sound (Mark)
+![](img/install.png)
 
-Api / Data (Mark)
+### Sound (Mark)
 
-Webcam (Max)
+### Api / Data (Mark)
 
-Open CV / Computer Vision (Mark)
+### Webcam && Video
 
-Networks (Max)
+[https://processing.org/reference/libraries/video/index.html](https://processing.org/reference/libraries/video/index.html)
 
-control p5 http://www.sojamo.de/libraries/controlP5/ (Max)
+The Video library plays movie files and captures video data from a camera. Video can be captured from USB Cameras, IEEE 1394 (Firewire) Cameras, or Video Cards with composite or S-video input devices connected to the computer. Movies can be loaded from files located on your computer or anywhere on the Internet. 
 
+### Open CV / Computer Vision (Mark)
 
-### Compare Processing && P5.js
+### Networks: Carnivore
+
+[http://r-s-g.org/carnivore/](http://r-s-g.org/carnivore/)
+
+Carnivore is a Processing library that allows you to perform surveillance on data networks. Carnivore listens to Internet traffic (email, web surfing, etc.) on a specific local network. Using Processing you are able to animate, diagnose, or interpret the network traffic in any way you wish. Further reading can be found [here](https://processing.org/tutorials/
+
+### User Interface: ControlP5
+
+[http://www.sojamo.de/libraries/controlP5/](http://www.sojamo.de/libraries/controlP5/)
+
+ControlP5 is a library to build a graphical user interface on top of your processing sketch include Sliders, Buttons, Toggles, Knobs, Textfields, RadioButtons, Checkboxes amongst others and can be easily added to a processing sketch.
+
+### Web: P5.js
+
+[https://p5js.org/](https://p5js.org/)
+
+P5.js is a Javascript library with the same approach like Processing. If you want to transfer your sketch into web, this is the way to go. We also did a workshop on this topic, you can have a look here [P5JS For Beginners](https://github.com/baselcodes/PCD2019/tree/master/Workshops/P5JS%20for%20Beginners)
+
+## Ressources
+
+[Hello Processing!](https://hello.processing.org/) 
+
+[Daniel Shiffman on Youtube](https://www.youtube.com/user/shiffman)
+
+[Nature of Code Book, Danien Shiffman](https://natureofcode.com/)
+
+[The Processing Handbook, Casey Reas & Ben Fry](https://processing.org/handbook/)
+
+[Generative Gestaltung, example collection](http://www.generative-gestaltung.de/)
+
+[Works by Casey Reas](http://reas.com/)
+
+[Basel.codes website](https://basel.codes/)
