@@ -277,7 +277,7 @@ The Video library plays movie files and captures video data from a camera. Video
 
 ### Open CV / Computer Vision (Mark)
 
-### Networks: Carnivore
+### Network Visualization: Carnivore
 
 [http://r-s-g.org/carnivore/](http://r-s-g.org/carnivore/)
 
@@ -302,6 +302,8 @@ P5.js is a Javascript library with the same approach like Processing. If you wan
 [Daniel Shiffman on Youtube](https://www.youtube.com/user/shiffman)
 
 [Nature of Code Book, Danien Shiffman](https://natureofcode.com/)
+
+[Learning Processing, Daniel Shiffman](http://learningprocessing.com/)
 
 [The Processing Handbook, Casey Reas & Ben Fry](https://processing.org/handbook/)
 
