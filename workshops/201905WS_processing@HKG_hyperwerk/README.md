@@ -4,14 +4,12 @@
 ## Day 1 – Basics
 Download the Processing software here: [https://processing.org](https://processing.org)
 
-### Reference Site
+See the full reference here: [https://processing.org/reference/](https://processing.org/reference/)
 
-[Processing Reference](https://processing.org/reference/)
 
 ### Basic Functions
 Every Processing sketch needs the following two functions.
 
-##### Setup
 `setup` will execute once at the beginning. Here you can define the size of your sketch.
 
 
@@ -21,7 +19,6 @@ void setup(){
 }
 ```
 
-### Draw
 `draw` executes 60 times a second. It's a loop which makes it possible, that your drawing is changing.
 
 ```
@@ -29,7 +26,7 @@ void draw(){
   // drawing something awesome here
 }
 ```
-### 2. Coordinate system and units of measure:
+### Coordinate system and units of measure:
 
 In Processing you work with a `x` and `y` axis. `x` is horizontal or the "width", `y` is vertical or the "height" of an object. Usually you work with numbers which equal to pixel (e.g. `100` is 100px on your screen). You can also use a relative unit instead of pixel. For example trough calculation `x = width * 1.5`. If the `width` changes, `x` is also changing.
 
@@ -60,6 +57,7 @@ Processing uses the RGB color mode by default. Every color needs therefore 3 arg
 fill(0); // black
 fill(255); // white
 fill(255, 0, 0); // red
+background(255); // white background
 ``` 
 
 You can add, remove or change the stroke with:
@@ -71,30 +69,69 @@ noStroke(); // no stroke
 ```
 
 
-### Interactivity
-`mouseX` & `mouseY`
+### Basic Interactivity
+
+You can easily use your mouse position with `mouseX` and `mouseY`.
+rect(mouseX, mouseY, mouseX/3, mouseY/3);
 
 ### Variables
-variable scope
-data types
+
+```
+int numA = 100; // integer number
+float numB = 12.22 // float point number
+String str1 = "CCCP"; // a string (word, sentence)
+color c = color(255, 204, 0);  // Define color 'c'
+boolean a = false; // can be true or false
+```
+An additional datatype which we will cover later on.
+
+```
+int[] numbersList = { 90, 150, 30 };  // a list of integer numbers
+float[] numbersList2 = { 1.3, 12.5, 9.3 };  // a list of float point numbers
+```
+Variables always have a scope. If you define them at the top they become global, which means you can use them everywhere. If you define them inside a function like `setup` or `draw` they are only available inside this function.
+
+```
+int a = 10:
+
+void setup(){
+  // a is available
+  int b = 20; // b is ONLY available in setup
+}
+
+void draw() {
+  // a is available
+  // b is NOT available in draw
+}
+```
+
 
 ### Random
+Usually you need a bit of random to make you code spicy 🔥 at some point. This outputs you a random number between 0 and 100: `random(0, 100);`. 
 
 ### Print
+
 `print();`
 
 `println();`
 
 ### if/else
+If this condition is true, 
 
 ### Loops
+Datatype `array[]`
+
+### Advanced Interactivity
 
 ### Images
+
+### Tweak Mode
+`cmd/ctrl + shift + T` 
 
 
 
 ### Sketchbook
-Your Processing software also has a "sketchbook" where you can collect your sketches. You can define the location of this folder under `Settings -> sketchbook path`. By default the folder is located in your `documents` folder. You can open the sketchbook via `File -> Sketchbook` or `cmd + shift + K`
+Your Processing software also has a "sketchbook" where you can collect your sketches. You can define the location of this folder under `Settings -> sketchbook path`. By default the folder is located in your `documents` folder. You can open the sketchbook via `File -> Sketchbook` or `cmd/ctrl + shift + K`
 
 
 
@@ -102,5 +139,20 @@ Your Processing software also has a "sketchbook" where you can collect your sket
 Take a look under `File -> examples`
 
 ## Day 2 – Individual Work && Mentoring
+
+### Advanced Topics
+Sound
+
+Api / Data
+
+Webcam
+
+Open CV / Computer Vision
+
+Networks
+
+Arduino
+
+
 
 ### Compare Processing && P5.js
