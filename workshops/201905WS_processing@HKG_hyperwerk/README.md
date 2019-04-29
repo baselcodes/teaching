@@ -1,4 +1,4 @@
-# Processing Workshop 
+# Proceesing Workshop 
 30.4. & 2.5.2019 @ HGK Hyperwerk, Mark Iandovka & Max Frischknecht
 
 ## Day 1 – Basics
@@ -62,7 +62,7 @@ fill(255); // white
 fill(255, 0, 0); // red
 ``` 
 
-You can add, remove stroke with
+You can add, remove or change the stroke with:
 
 ```
 stroke(255, 0, 0); // red stroke
