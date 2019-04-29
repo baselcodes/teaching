@@ -3,7 +3,7 @@
 
 ## Program
 
-###Tuesday, 30.4.
+### Tuesday, 30.4.
 
 * Introduction to the course, expectations & experince
 * Processing software environment (console, errors, sketchbook, examples etc)
@@ -31,10 +31,10 @@
 * ***Outlook day 2***
 	* Introduction libraries 
 
-###Wednesday, 01.05.
+### Wednesday, 01.05.
 * ***Individual Work***
 
-###Thursday, 02.05.
+### Thursday, 02.05.
 * *Recap of day 1*
 * *Individual work with support*
 * *Ad hoc tutorials to requested topics*
