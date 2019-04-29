@@ -1,5 +1,5 @@
 # Proceesing Workshop 
-30.4. & 2.5.2019 @ HGK Hyperwerk, Mark Iandovka & Max Frischknecht
+30.4. – 2.5.2019 @ HGK Hyperwerk, Mark Iandovka & Max Frischknecht, [basel.codes](https://basel.codes/)
 
 ## Program
 
@@ -27,6 +27,9 @@
 	* Tweak mode
 * Outlook Day 2
 	* Introduction libraries 
+
+###Wednesday, 01.05.
+* Individual Work
 
 ###Thursday, 02.05.
 * Recap of day 1
@@ -59,7 +62,7 @@ void draw(){
 }
 ```
 
-### Coordinate system and units of measure:
+### Coordinate System and Units of Measure:
 
 In Processing you work with a `x` and `y` axis. `x` is horizontal or the "width", `y` is vertical or the "height" of an object. Usually you work with numbers which equal to pixel (e.g. `100` is 100px on your screen). You can also use a relative unit instead of pixel. For example trough calculation `x = width * 1.5`. If the `width` changes, `x` is also changing.
 
@@ -158,7 +161,7 @@ You can uncomment a code so it will no be executed. It's a good habit to briefly
 ```
 You can talk to your console by using `print();` and `println();` (prints a line)
 
-### if/else
+### If / Else
 If a condition is true, a piece of code gets executed. This is a fundamental progaming concept.
 
 ```
@@ -189,7 +192,7 @@ instead of `i = i + 5` you can also write `i+=5` or `i++` (same as `i + i + 1`)
 
 
 ### Advanced Interactivity
-##### Key recognition
+#### Key recognition
 Detect if a key is pressed
 
 ```
@@ -214,7 +217,7 @@ void keyPressed() {
 }
 ```
 
-##### Save an image
+#### Save an image
 ```
 void keyPressed() {
   if (key == 's' || key == 'S') {
@@ -248,15 +251,13 @@ You can live-edit your code with the tweak mode! `cmd/ctrl + shift + T`
 Your Processing software also has a "sketchbook" where you can collect your sketches. You can define the location of this folder under `Settings -> sketchbook path`. By default the folder is located in your `documents` folder. You can open the sketchbook via `File -> Sketchbook` or `cmd/ctrl + shift + K`
 
 
-
 ### Examples
-Take a look under `File -> examples`
+Take a look under `File -> examples` and here [https://processing.org/examples/](https://processing.org/examples/).
 
-### Feedback round
 
 ## Day 2 – Individual Work && Mentoring
 
-### Advanced Topics
+### Libraries
 
 Sound (Mark)
 
