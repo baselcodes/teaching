@@ -1,4 +1,4 @@
-# Proceesing Workshop 
+# Processing Workshop 
 30.4. & 2.5.2019 @ HGK Hyperwerk, Mark Iandovka & Max Frischknecht
 
 ## Day 1 – Basics
