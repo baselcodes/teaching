@@ -1,7 +1,41 @@
 # Proceesing Workshop 
 30.4. & 2.5.2019 @ HGK Hyperwerk, Mark Iandovka & Max Frischknecht
 
-## Day 1 – Basics
+## Program
+
+###Tuesday, 30.4.
+
+* Introduction to the course, expectations & experince
+* Processing software environment (console, errors, sketchbook, examples etc)
+* Programming basics I
+	* Program structure
+	* Coordinate system
+	* Shapes
+	* Colors
+	* Basic interactivity 
+* Programming basics  II
+	*  Variables && Datatypes
+	*  Random 
+	*  Utilities
+* Lunch
+* Programing basics III
+	* Daniel Shiffman 
+	* if/else
+	* Loops
+	* Advanced Interactivity
+	* Images
+	* Tweak mode
+* Outlook Day 2
+	* Introduction libraries 
+
+###Thursday, 02.05.
+* Recap of day 1
+* Individual work with support
+* Ad hoc tutorials to requested topics 
+* 5 min presentation each
+* final discussion & feedback round
+
+## Day 1 – Basics Cheatsheet
 Download the Processing software here: [https://processing.org](https://processing.org)
 
 See the full reference here: [https://processing.org/reference/](https://processing.org/reference/)
@@ -141,9 +175,6 @@ rect(0, 0, 100, 100);
 This result in a black rectangle because `iWantBlack ` is set to `true`. 
 
 ### Loops
-++
-Datatype `array[]`
-
 If you want to handle many similar things at once, the "for loop" is the weapon of choice. `int i` is a counter which usually starts at `0`. As long as `i` is smaller than `80` the code inside the `{}` gets executed. `i = i + 5` indicates how big the counting steps are.
 
 ```
