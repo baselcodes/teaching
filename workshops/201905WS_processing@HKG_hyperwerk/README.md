@@ -226,20 +226,18 @@ Take a look under `File -> examples`
 ## Day 2 – Individual Work && Mentoring
 
 ### Advanced Topics
-Sound
 
-Api / Data
+Sound (Mark)
 
-Webcam
+Api / Data (Mark)
 
-Open CV / Computer Vision
+Webcam (Max)
 
-Networks
+Open CV / Computer Vision (Mark)
 
-Arduino
+Networks (Max)
 
-control p5 http://www.sojamo.de/libraries/controlP5/
-
+control p5 http://www.sojamo.de/libraries/controlP5/ (Max)
 
 
 ### Compare Processing && P5.js
