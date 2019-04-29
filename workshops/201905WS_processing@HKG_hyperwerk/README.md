@@ -7,36 +7,39 @@
 
 * Introduction to the course, expectations & experince
 * Processing software environment (console, errors, sketchbook, examples etc)
-* Programming basics I
+
+
+* ***Programming basics I***
 	* Program structure
 	* Coordinate system
 	* Shapes
 	* Colors
 	* Basic interactivity 
-* Programming basics  II
-	*  Variables && Datatypes
+
+* ***Programming basics  II***
+	*  Variables && datatypes
 	*  Random 
 	*  Utilities
-* Lunch
-* Programing basics III
+* *Lunch*
+* ***Programing basics III***
 	* Daniel Shiffman 
 	* if/else
 	* Loops
-	* Advanced Interactivity
+	* Advanced interactivity
 	* Images
 	* Tweak mode
-* Outlook Day 2
+* ***Outlook day 2***
 	* Introduction libraries 
 
 ###Wednesday, 01.05.
-* Individual Work
+* ***Individual Work***
 
 ###Thursday, 02.05.
-* Recap of day 1
-* Individual work with support
-* Ad hoc tutorials to requested topics 
-* 5 min presentation each
-* final discussion & feedback round
+* *Recap of day 1*
+* *Individual work with support*
+* *Ad hoc tutorials to requested topics*
+* *5 min presentation each*
+* *Final discussion & feedback round*
 
 ## Day 1 – Basics Cheatsheet
 Download the Processing software here: [https://processing.org](https://processing.org)
