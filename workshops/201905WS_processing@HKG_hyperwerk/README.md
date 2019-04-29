@@ -281,7 +281,7 @@ The Video library plays movie files and captures video data from a camera. Video
 
 [http://r-s-g.org/carnivore/](http://r-s-g.org/carnivore/)
 
-Carnivore is a Processing library that allows you to perform surveillance on data networks. Carnivore listens to Internet traffic (email, web surfing, etc.) on a specific local network. Using Processing you are able to animate, diagnose, or interpret the network traffic in any way you wish. Further reading can be found [here](https://processing.org/tutorials/
+Carnivore is a Processing library that allows you to perform surveillance on data networks. Carnivore listens to Internet traffic (email, web surfing, etc.) on a specific local network. Using Processing you are able to animate, diagnose, or interpret the network traffic in any way you wish. Further reading can be found [here](https://processing.org/tutorials/)
 
 ### User Interface: ControlP5
 
