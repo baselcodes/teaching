@@ -265,9 +265,9 @@ We encourage you to work with libraries to expand the possibilities of processin
 
 ![](img/install.png)
 
-### Sound (Mark)
+### Sound
 
-### Api / Data (Mark)
+Processing can be used both to recognize sound and respond to it and to generate sound using the sound library.
 
 ### Webcam && Video
 
@@ -275,7 +275,9 @@ We encourage you to work with libraries to expand the possibilities of processin
 
 The Video library plays movie files and captures video data from a camera. Video can be captured from USB Cameras, IEEE 1394 (Firewire) Cameras, or Video Cards with composite or S-video input devices connected to the computer. Movies can be loaded from files located on your computer or anywhere on the Internet. 
 
-### Open CV / Computer Vision (Mark)
+### Open CV / Computer Vision
+
+There is a Processing version of the popular computer vision library OpenCV.
 
 ### Network Visualization: Carnivore
 
@@ -289,13 +291,15 @@ Carnivore is a Processing library that allows you to perform surveillance on dat
 
 ControlP5 is a library to build a graphical user interface on top of your processing sketch include Sliders, Buttons, Toggles, Knobs, Textfields, RadioButtons, Checkboxes amongst others and can be easily added to a processing sketch.
 
+### Api / Data
+
 ### Web: P5.js
 
 [https://p5js.org/](https://p5js.org/)
 
 P5.js is a Javascript library with the same approach like Processing. If you want to transfer your sketch into web, this is the way to go. We also did a workshop on this topic, you can have a look here [P5JS For Beginners](https://github.com/baselcodes/PCD2019/tree/master/Workshops/P5JS%20for%20Beginners)
 
-## Ressources
+## Resources
 
 [Hello Processing!](https://hello.processing.org/) 
 
