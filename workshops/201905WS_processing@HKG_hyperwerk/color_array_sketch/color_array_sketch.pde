@@ -35,3 +35,11 @@ void draw() {
   fill(colors[colorSelect]);
   rect(mouseX, mouseY, size, size);
 }
+
+
+void keyPressed() {
+  if (key == 's' || key == 'S') {
+    saveFrame("mysavedimage_##.png");
+    println("Saved yo!");
+  }
+}
