@@ -151,6 +151,11 @@ Usually you need a bit of random to make you code spicy 🔥 at some point. This
 
 This outputs a random float point number like `97.3`. You can convert it into a `int` with `int(random(0, 100))` which would result in `97`. The number will always be rounded down.
 
+### Modulo (%)
+Sometimes you need to bring a number into a certain range, for example when drawing or when working with colors. Other uses including helping make sure something happens every x-iteration.
+
+Modulo is a function that returns the remainder of a division of 2 input numbers (int or float). So 5%4 is 1, since the remainder when doing 5/4 is 1.
+
 ### Utilities
 You can uncomment a code so it will no be executed. It's a good habit to briefly explain pieces of your code using comments. This helps you and others to understand you code later. 
 
