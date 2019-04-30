@@ -272,6 +272,8 @@ We encourage you to work with libraries to expand the possibilities of processin
 
 ### Sound
 
+[https://processing.org/reference/libraries/sound/index.html](https://processing.org/reference/libraries/sound/index.html)
+
 Processing can be used both to recognize sound and respond to it and to generate sound using the sound library.
 
 ### Webcam && Video
@@ -281,6 +283,8 @@ Processing can be used both to recognize sound and respond to it and to generate
 The Video library plays movie files and captures video data from a camera. Video can be captured from USB Cameras, IEEE 1394 (Firewire) Cameras, or Video Cards with composite or S-video input devices connected to the computer. Movies can be loaded from files located on your computer or anywhere on the Internet. 
 
 ### Open CV / Computer Vision
+
+[https://github.com/atduskgreg/opencv-processing](https://github.com/atduskgreg/opencv-processing)
 
 There is a Processing version of the popular computer vision library OpenCV.
 
@@ -304,23 +308,34 @@ P5.js is a Javascript library with the same approach like Processing. If you wan
 
 
 ### Api / Data with P5.js
+
+Using P5.js, the javascipt based library inspired by Processing, you can easily work with live data. Check out Dan Shiffmans tutorial if below.
+
 [https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r)
 
 
 ## Resources
 
-[Hello Processing!](https://hello.processing.org/) 
+[Processing Reference](https://processing.org/reference/)
+
+[Processing Forum](https://discourse.processing.org/)
+
+[Hello Processing! Introduction Tutorial](https://hello.processing.org/) 
 
 [Daniel Shiffman on Youtube](https://www.youtube.com/user/shiffman)
 
-[Nature of Code Book, Danien Shiffman](https://natureofcode.com/)
+[Nature of Code, book, example collection, Daniel Shiffman](https://natureofcode.com/)
 
-[Learning Processing, Daniel Shiffman](http://learningprocessing.com/)
+[Learning Processing, book, example collection, Daniel Shiffman](http://learningprocessing.com/)
 
 [The Processing Handbook, Casey Reas & Ben Fry](https://processing.org/handbook/)
 
-[Generative Gestaltung, example collection](http://www.generative-gestaltung.de/)
+[Form + Code in Design, Art & Architecture, book, example collection](http://formandcode.com/)
+
+[Generative Gestaltung, book, example collection](http://www.generative-gestaltung.de/)
 
 [Works by Casey Reas](http://reas.com/)
+
+[Creative Applications Blog](http://www.creativeapplications.net/)
 
 [Basel.codes website](https://basel.codes/)
